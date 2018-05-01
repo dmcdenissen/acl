@@ -1,0 +1,30 @@
+{
+    "name": "dmcdenissen/acl",
+    "description": "Laravel ACL: roles and permissions",
+    "keywords": [
+        "laravel",
+        "acl",
+        "roles",
+        "permissions",
+        "gate",
+        "policy"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "D.M.C. Denissen (Dave)",
+            "email": "dave@in2design.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.*",
+        "illuminate/support": "5.5.*",
+        "illuminate/database": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dmcdenissen\\acl\\": "packages/dmcdenissen/acl/src"
+        }
+    },
+    "minimum-stability": "dev"
+}
